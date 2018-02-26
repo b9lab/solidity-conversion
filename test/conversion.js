@@ -1,3 +1,5 @@
+const Conversion = artifacts.require("./Conversion.sol");
+
 contract('Conversion', function(accounts) {
 
   it("should convert small positive numbers without issue", function(done) {
